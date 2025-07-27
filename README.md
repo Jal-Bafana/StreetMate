@@ -58,18 +58,18 @@
    bun install
    ```
 3. **Set up Supabase Client:**
-   - Open `src/integrations/client.ts` and paste your Supabase credentials directly:
+Open `src/integrations/client.ts` and paste your Supabase credentials directly:
      ```env
       const SUPABASE_URL = "YOUR_SUPABASE_URL_HERE";
       const SUPABASE_PUBLISHABLE_KEY = "YOUR_SUPABASE_PUBLISHABLE_KEY_HERE"; 
      ```
-4. **Run the app locally:**
+5. **Run the app locally:**
    ```sh
    npm run dev
    # or
    bun run dev
    ```
-5. **Open in browser:**
+6. **Open in browser:**
    Visit [http://localhost:5173](http://localhost:5173)
 
 ## Deployment
