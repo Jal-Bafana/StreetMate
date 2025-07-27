@@ -57,11 +57,11 @@
    # or
    bun install
    ```
-3. **Set up environment:**
-   - Create a `.env` file with your Supabase credentials:
+3. **Set up Supabase Client:**
+   - Open `src/integrations/client.ts` and paste your Supabase credentials directly:
      ```env
-     VITE_SUPABASE_URL=your-supabase-url
-     VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+      const SUPABASE_URL = "YOUR_SUPABASE_URL_HERE";
+      const SUPABASE_PUBLISHABLE_KEY = "YOUR_SUPABASE_PUBLISHABLE_KEY_HERE"; 
      ```
 4. **Run the app locally:**
    ```sh
@@ -88,6 +88,6 @@
 
 ## Credits
 
-- Built with [shadcn/ui](https://ui.shadcn.com/), [Supabase](https://supabase.com/), [Vite](https://vitejs.dev/), and [Tailwind CSS](https://tailwindcss.com/).
+- Built with 💙 by Jal, Kanish, Manas, Kaivalya, Joel
 
 ---
