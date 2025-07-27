@@ -1,4 +1,4 @@
-# StreetMate Market
+# StreetMate
 
 > A modern marketplace MVP for street food vendors and sellers, built for hackathons and rapid deployment.
 
@@ -48,8 +48,8 @@
 
 1. **Clone the repo:**
    ```sh
-   git clone <your-repo-url>
-   cd streetmate-market
+   git clone https://github.com/Jal-Bafana/StreetMate.git
+   cd Streetmate
    ```
 2. **Install dependencies:**
    ```sh
